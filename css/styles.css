@@ -1,0 +1,122 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  /* Link of this font will be provided in index.html in head section */
+}
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding: 160px 100px 0 100px;
+}
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 160px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 170px;
+  top: 320px;
+}
+.profile{
+  width: 35%;
+  margin: 60px auto 0 auto;
+  line-height: 2;
+}
+p{
+  color: #40514E;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #D8D8D8;
+  border-width: 7px;
+  width: 4%;
+  margin: 80px auto;
+
+}
+.Name1 {
+  margin: 50px auto 0 auto;
+  /* we should give font size in percentage or em why because eventhough the display properties changes into user's pc the website looks Same
+  Note: if 100% = 16px = 1em or 1rem. I want to give 90px in font, so 90/16px = 562.5% or 5.625em or 5.625rem*/
+  font-size: 3.625rem;   /* use rem instead of em is more preferrable for debug */
+  font-family: 'Michroma', sans-serif;
+  color: #66BFBF;
+  line-height: 2;
+  font-weight: 500;
+}
+h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: bold;
+}
+h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #11999E;
+}
+a{
+  color: #11999E;
+}
+.skill-row{
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skillimage1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skillimage2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me{
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+/* Generating button from css button generator website till btn hover*/
+.btn {
+  font-size:15px;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-width:1px;
+  color:#fff;
+  border-color:#599bb3;
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0 10px 14px -7px #276873;
+  text-shadow: 0 1px 0 #3d768a;
+  background:linear-gradient(rgba(17, 205, 212, 1), rgba(17, 153, 158, 1));
+}
+.btn:hover {
+  background: linear-gradient(rgba(17, 153, 158, 1), rgba(17, 205, 212, 1));
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin: auto;
+  padding: 50px;
+}
+.touch{
+  margin-bottom: 60px;
+}
+.footer-link{
+  text-decoration: none;
+  padding: 35px;
+  color: #11999E;
+  font-weight: bold;
+}
+.copyright{
+  color: #EAF6F6;
+  margin: 30px auto 0 auto;
+  font-size: 13px;
+}
